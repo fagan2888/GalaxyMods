@@ -1,6 +1,6 @@
 <tool id='reverb.rel-ext' name='ReVerb Relation Extractor' version='1.0.1'>
   <description>ReVerb Relation Extractor</description>
-  <command interpreter='lsd'>../common/invoke_brandeis.lsd reverb.relationextractor_1.0.1 $input $output</command>
+  <command interpreter='lsd'>../common/invoke_brandeis.lsd reverb.relationextractor_1.0.2 $input $output</command>
   <inputs>
     <param name='input' type='data' format='lif' label='input' />
   </inputs>
